@@ -74,5 +74,5 @@ If you use this model in your research, please cite:
 ```
 Herho, S., Anwar, I., & Ndruru, T. (2025). wave_attenuation_1d: 
 Simple 1D Wave Attenuation Model for Coastal Vegetation. 
-https://github.com/[username]/wave_attenuation_1d
+https://github.com/sandyherho/wave_attenuation_1d
 ```
