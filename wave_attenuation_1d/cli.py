@@ -10,6 +10,7 @@ import argparse
 import configparser
 import logging
 import sys
+import os
 from pathlib import Path
 from datetime import datetime
 
@@ -103,7 +104,7 @@ def main():
         epilog="""
 Examples:
   wave-attenuation-1d configs/sparse_config.txt
-  wave-attenuation-1d dense_config.txt --output-dir results
+  wave-attenuation-1d dense_config.txt
   
 Authors: Sandy Herho, Iwan Anwar, Theo Ndruru
 License: MIT (2025)
@@ -114,20 +115,6 @@ License: MIT (2025)
         'config',
         type=str,
         help='Configuration file path'
-    )
-    
-    parser.add_argument(
-        '--output-dir',
-        type=str,
-        default='outputs',
-        help='Output directory (default: outputs)'
-    )
-    
-    parser.add_argument(
-        '--log-dir',
-        type=str,
-        default='logs',
-        help='Log directory (default: logs)'
     )
     
     parser.add_argument(
@@ -144,15 +131,27 @@ License: MIT (2025)
         print(f"Error: Configuration file '{config_path}' not found")
         sys.exit(1)
     
-    # Create output directories if needed
-    output_dir = Path(args.output_dir)
-    log_dir = Path(args.log_dir)
+    # Get the directory where the config file is located
+    config_dir = config_path.parent
     
-    # Generate output filenames
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    # Create output directories at the same level as configs directory
+    # If running from project root, this creates outputs/ and logs/ alongside configs/
+    if config_dir.name == 'configs':
+        base_dir = config_dir.parent
+    else:
+        base_dir = Path.cwd()
+    
+    output_dir = base_dir / 'outputs'
+    log_dir = base_dir / 'logs'
+    
+    # Create directories if they don't exist
+    output_dir.mkdir(exist_ok=True)
+    log_dir.mkdir(exist_ok=True)
+    
+    # Generate output filenames WITHOUT timestamp
     base_name = config_path.stem
-    output_file = output_dir / f"{base_name}_{timestamp}.nc"
-    log_file = log_dir / f"{base_name}_{timestamp}.log"
+    output_file = output_dir / f"{base_name}.nc"
+    log_file = log_dir / f"{base_name}.log"
     
     # Setup logging
     logger = setup_logging(log_file)
