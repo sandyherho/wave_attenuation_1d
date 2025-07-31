@@ -1,0 +1,31 @@
+# Configuration for Dense Vegetation (e.g., Mangroves)
+# Simple 1D Wave Attenuation Model
+
+[DOMAIN]
+# Domain length in meters
+L = 200.0
+# Water depth in meters
+d = 2.0
+# Spatial discretization in meters
+dx = 0.5
+# Total simulation time in seconds (50 wave periods)
+T = 500.0
+
+[WAVE]
+# Wave amplitude in meters (same as sparse for comparison)
+A = 0.3
+# Wave angular frequency in rad/s (T = 10 s period)
+omega = 0.628
+
+[VEGETATION]
+# Single vegetation patch location (same as sparse)
+start = 80.0
+end = 120.0
+# High drag coefficient for dense vegetation
+cD = 2.0
+
+[NUMERICAL]
+# Target CFL number for stability
+cfl_target = 0.4
+# Output every 2 seconds
+output_dt = 2.0

@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wave-attenuation-1d"
+version = "0.1.0"
+authors = [
+    {name = "Sandy Herho", email = "sandy.herho@email.ucr.edu"},
+    {name = "Iwan Anwar"},
+    {name = "Theo Ndruru"}
+]
+description = "Simple 1D Wave Attenuation Model for Coastal Vegetation"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+keywords = ["wave attenuation", "coastal engineering", "numerical modeling", "vegetation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "numpy>=1.20.0",
+    "numba>=0.54.0",
+    "netCDF4>=1.5.0",
+    "tqdm>=4.62.0",
+]
+
+[project.scripts]
+wave-attenuation-1d = "wave_attenuation_1d.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/[username]/wave_attenuation_1d"
+Issues = "https://github.com/[username]/wave_attenuation_1d/issues"
