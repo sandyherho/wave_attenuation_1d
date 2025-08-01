@@ -1,6 +1,6 @@
 """
 Setup script for wave_attenuation_1d package
-Authors: Sandy Herho, Iwan Anwar, Theo Ndruru
+Authors: Sandy Herho, Iwan Anwar, Theo Ndruru, Rusmawan Suwarman
 Date: 08/01/2025
 """
 
