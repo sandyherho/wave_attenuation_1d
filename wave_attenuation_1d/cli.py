@@ -106,7 +106,7 @@ Examples:
   wave-attenuation-1d configs/sparse_config.txt
   wave-attenuation-1d dense_config.txt
   
-Authors: Sandy Herho, Iwan Anwar, Theo Ndruru
+Authors: Sandy H. S. Herho, Iwan P. Anwar, Theo R. E. B. N. Ndruru, Rusmawan Suwarman, Dasapta E. Irawan
 License: MIT (2025)
         """
     )
