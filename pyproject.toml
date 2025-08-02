@@ -9,7 +9,8 @@ authors = [
     {name = "Sandy Herho", email = "sandy.herho@email.ucr.edu"},
     {name = "Iwan Anwar"},
     {name = "Theo Ndruru"},
-    {name="Rusmawan Suwarman"}
+    {name="Rusmawan Suwarman"},
+    {name="Dasapta Irawan"}
 ]
 description = "Simple 1D Wave Attenuation Model for Coastal Vegetation"
 readme = "README.md"

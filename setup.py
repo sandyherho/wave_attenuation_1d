@@ -1,6 +1,6 @@
 """
 Setup script for wave_attenuation_1d package
-Authors: Sandy Herho, Iwan Anwar, Theo Ndruru, Rusmawan Suwarman
+Authors: Sandy Herho, Iwan Anwar, Theo Ndruru, Rusmawan Suwarman, Dasapta Irawan
 Date: 08/01/2025
 """
 
@@ -17,7 +17,7 @@ setup(
     description="Simple 1D Wave Attenuation Model for Coastal Vegetation",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/[username]/wave_attenuation_1d",
+    url="https://github.com/sandyherho/wave_attenuation_1d",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",

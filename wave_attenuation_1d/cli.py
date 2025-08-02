@@ -1,7 +1,7 @@
 """
 Command-line interface for wave_attenuation_1d
 
-Authors: Sandy Herho <sandy.herho@email.ucr.edu>, Iwan Anwar, Theo Ndruru
+Authors: Sandy Herho <sandy.herho@email.ucr.edu>, Iwan Anwar, Theo Ndruru, Rusmawan Suwarman, Dasapta Irawan
 Date: 08/01/2025
 License: MIT
 """

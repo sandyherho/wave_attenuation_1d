@@ -4,7 +4,7 @@ Solves linearized shallow water equations with vegetation-induced dissipation
 using high-order numerical schemes and parallel computing
 
 Mathematical Model:
-    ∂η/∂t + ∂(hu)/∂x = 0                    (continuity equation)
+    ∂η/∂t + h∂u/∂x = 0                    (continuity equation)
     ∂u/∂t + g∂η/∂x = -cD·u·χ_veg           (momentum equation with drag)
     
 where:
@@ -15,7 +15,7 @@ where:
     cD     : vegetation drag coefficient [1/s]
     χ_veg  : characteristic function for vegetation zone
 
-Authors: Sandy Herho <sandy.herho@email.ucr.edu>, Iwan Anwar, Theo Ndruru
+Authors: Sandy Herho <sandy.herho@email.ucr.edu>, Iwan Anwar, Theo Ndruru, Rusmawan Suwarman, Dasapta Irawan
 Date: 08/01/2025
 License: MIT
 """
