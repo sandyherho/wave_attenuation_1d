@@ -3,6 +3,7 @@
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![PyPI version](https://badge.fury.io/py/wave-attenuation-1d.svg)](https://badge.fury.io/py/wave-attenuation-1d)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/1029883701.svg)](https://doi.org/10.5281/zenodo.16729568)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 A fast numerical solver for simulating wave attenuation through coastal vegetation, solving the linearized shallow water equations with vegetation-induced drag.
