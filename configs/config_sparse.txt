@@ -27,5 +27,5 @@ cD = 0.14
 [NUMERICAL]
 # Target CFL number for stability
 cfl_target = 0.4
-# Output every 2 seconds
-output_dt = 2.0
+# Output every 1 second
+output_dt = 1.0
