@@ -4,7 +4,7 @@ Simple 1D Wave Attenuation Model for Coastal Vegetation
 
 ## Description
 
-This package provides a simplified 1D numerical model for simulating wave attenuation through coastal vegetation (e.g., seagrass, mangroves). It solves the shallow water equations with vegetation-induced drag using a 4th-order Runge-Kutta scheme.
+This package provides a simplified 1D numerical model for simulating wave attenuation through coastal vegetation. It solves the shallow water equations with vegetation-induced drag using a 4th-order Runge-Kutta scheme.
 
 ## Features
 
@@ -42,8 +42,8 @@ Results are saved in:
 ## Configuration
 
 Example configuration files are provided in the `configs/` directory:
-- `sparse_config.txt`: Sparse vegetation (e.g., seagrass)
-- `dense_config.txt`: Dense vegetation (e.g., mangroves)
+- `sparse_config.txt`: Sparse vegetation
+- `dense_config.txt`: Dense vegetation
 
 ## Physics
 
@@ -64,7 +64,7 @@ MIT License - see LICENSE file
 
 ## Authors
 
-- Sandy Herho <sandy.herho@email.ucr.edu>
+- Sandy Herho: sandy.herho@email.ucr.edu
 - Iwan Anwar
 - Theo Ndruru
 - Rusmawan Suwarman
@@ -73,7 +73,7 @@ MIT License - see LICENSE file
 
 If you use this model in your research, please cite:
 ```
-Herho, S., Anwar, I., & Ndruru, T, Suwarman R. (2025). wave_attenuation_1d: 
+Herho, S., Anwar, I., Ndruru, T, & Suwarman R. (2025). wave_attenuation_1d: 
 Simple 1D Wave Attenuation Model for Coastal Vegetation. 
 https://github.com/sandyherho/wave_attenuation_1d
 ```

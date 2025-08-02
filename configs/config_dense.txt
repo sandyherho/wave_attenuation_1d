@@ -1,4 +1,4 @@
-# Configuration for Dense Vegetation (e.g., Mangroves)
+# Configuration for Dense Vegetation
 # Simple 1D Wave Attenuation Model
 
 [DOMAIN]

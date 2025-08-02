@@ -1,4 +1,4 @@
-# Configuration for Sparse Vegetation (e.g., Seagrass)
+# Configuration for Sparse Vegetation
 # Simple 1D Wave Attenuation Model
 
 [DOMAIN]
