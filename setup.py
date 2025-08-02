@@ -12,7 +12,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="wave-attenuation-1d",
     version="0.1.0",
-    author="Sandy Herho, Iwan Anwar, Theo Ndruru",
+    author="Sandy Herho, Iwan Anwar, Theo Ndruru, Rusmawan Suwarman, Dasapta Irawan",
     author_email="sandy.herho@email.ucr.edu",
     description="Simple 1D Wave Attenuation Model for Coastal Vegetation",
     long_description=long_description,
