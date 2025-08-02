@@ -22,7 +22,7 @@ omega = 0.628
 start = 80.0
 end = 120.0
 # High drag coefficient for dense vegetation
-cD = 2.0
+cD = 1.5
 
 [NUMERICAL]
 # Target CFL number for stability
