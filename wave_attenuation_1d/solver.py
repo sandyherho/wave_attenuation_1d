@@ -464,8 +464,8 @@ class WaveSolver:
             ds.title = "1D Wave Attenuation Model Results"
             ds.model_name = "wave_attenuation_1d"
             ds.model_version = "0.1.0"
-            ds.authors = "Sandy Herho, Iwan Anwar, Theo Ndruru"
-            ds.institution = "Department of Applied Mathematics"
+            ds.authors = "Sandy Herho, Iwan Anwar, Theo Ndruru, Rusmawan Suwarman, Dasapta Irawan"
+            ds.institution = "Samudera Sains Teknologi Ltd."
             ds.created = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             ds.conventions = "CF-1.8"
             
