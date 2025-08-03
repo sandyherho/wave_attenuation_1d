@@ -1,6 +1,6 @@
 [project]
 name = "wave-attenuation-1d"
-version = "0.1.1"
+version = "0.1.2"
 description = "Simple 1D Wave Attenuation Model for Coastal Vegetation"
 authors = [
     {name = "Sandy Herho",email = "sandy.herho@email.ucr.edu"}
