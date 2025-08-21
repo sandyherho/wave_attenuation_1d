@@ -15,7 +15,7 @@ where:
     cD     : vegetation drag coefficient [1/s]
     χ_veg  : characteristic function for vegetation zone
 
-Authors: Sandy Herho <sandy.herho@email.ucr.edu>, Iwan Anwar, Theo Ndruru, Rusmawan Suwarman, Dasapta Irawan
+Authors: Sandy Herho <sandy.herho@email.ucr.edu>, Iwan Anwar, Faruq Khadami, Theo Ndruru, Rusmawan Suwarman, Dasapta Irawan
 Date: 08/01/2025
 License: MIT
 """
@@ -463,8 +463,8 @@ class WaveSolver:
             # Global attributes - Model description
             ds.title = "1D Wave Attenuation Model Results"
             ds.model_name = "wave_attenuation_1d"
-            ds.model_version = "0.1.0"
-            ds.authors = "Sandy Herho, Iwan Anwar, Theo Ndruru, Rusmawan Suwarman, Dasapta Irawan"
+            ds.model_version = "0.1.4"
+            ds.authors = "Sandy Herho, Iwan Anwar, Faruq Khadami, Theo Ndruru, Rusmawan Suwarman, Dasapta Irawan"
             ds.institution = "Samudera Sains Teknologi Ltd."
             ds.created = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             ds.conventions = "CF-1.8"

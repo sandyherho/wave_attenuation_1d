@@ -1,7 +1,7 @@
 """
 wave_attenuation_1d - Simple 1D Wave Attenuation Model for Coastal Vegetation
 
-Authors: Sandy Herho <sandy.herho@email.ucr.edu>, Iwan Anwar, Theo Ndruru, Rusmawan Suwarman, Dasapta Irawan
+Authors: Sandy Herho <sandy.herho@email.ucr.edu>, Iwan Anwar, Faruq Khadami, Theo Ndruru, Rusmawan Suwarman, Dasapta Irawan
 Date: 08/01/2025
 License: MIT
 """

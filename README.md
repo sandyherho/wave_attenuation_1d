@@ -122,6 +122,7 @@ If you use this model in your research, please cite:
 
 - Sandy H. S. Herho (sandy.herho@email.ucr.edu)
 - Iwan P. Anwar
+- Faruq Khadami
 - Theo R. E. B. N. Ndruru  
 - Rusmawan Suwarman
 - Dasapta E. Irawan

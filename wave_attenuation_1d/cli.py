@@ -1,7 +1,7 @@
 """
 Command-line interface for wave_attenuation_1d
 
-Authors: Sandy Herho <sandy.herho@email.ucr.edu>, Iwan Anwar, Theo Ndruru, Rusmawan Suwarman, Dasapta Irawan
+Authors: Sandy Herho <sandy.herho@email.ucr.edu>, Iwan Anwar, Faruq Khadami, Theo Ndruru, Rusmawan Suwarman, Dasapta Irawan
 Date: 08/01/2025
 License: MIT
 """
@@ -16,7 +16,7 @@ from datetime import datetime
 
 from .solver import Config, WaveSolver
 
-__version__ = "0.1.2"
+__version__ = "0.1.4"
 
 
 def setup_logging(log_file: Path) -> logging.Logger:
@@ -106,7 +106,7 @@ Examples:
   wave-attenuation-1d configs/sparse_config.txt
   wave-attenuation-1d dense_config.txt
 
-Authors: Sandy H. S. Herho, Iwan P. Anwar, Theo R. E. B. N. Ndruru, Rusmawan Suwarman, Dasapta E. Irawan
+Authors: Sandy H. S. Herho, Iwan P. Anwar, Faruq Khadami, Theo R. E. B. N. Ndruru, Rusmawan Suwarman, Dasapta E. Irawan
 License: MIT (2025)
         """
     )
